@@ -17,9 +17,11 @@ console.log(nuevoArray);
 
 // Some - Devuelve si al menos uno cumple la condición
 // const resultado = numeros.some( numero => numero > 15)
+// console.log(resultado);
 
 // Find - Devuelve el primer elemento que cumpla la condicion
-// const resultado = numeros.find( numero => numero > 5)
+const resultado = numeros.find( numero => numero > 5)
+console.log(resultado);
 
 // Every - Retorna true o false si todos cumplen la condición
 // const resultado = numeros.every( numero => numero > 9);
